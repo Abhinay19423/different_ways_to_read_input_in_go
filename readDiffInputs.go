@@ -14,11 +14,11 @@ func main() {
   val := readInt(in)
 	// fmt.Println(reflect.TypeOf(val))
   arr := make([]int, val)
-	arr = readArrInt(in)	
+  arr = readArrInt(in)	
 	
-	for _, val := range arr{
-		fmt.Println(val)
-	}       
+   for _, val := range arr{
+	fmt.Println(val)
+   }       
 }
 
 func readInt(in *bufio.Reader) int {
